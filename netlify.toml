@@ -1,5 +1,5 @@
 [build]
-  functions = "functions-build"
+  functions = "functions-build"  
   publish = "public"
 
 [functions]
@@ -8,6 +8,6 @@
   included_files = ["views/**", "public/**"]
 
 [[redirects]]
-  from = "/api/*"
+  from = "/*"
   to = "/.netlify/functions/app"
   status = 200

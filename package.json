@@ -1,19 +1,27 @@
 {
   "name": "netlify_ejs_express_test",
   "version": "1.0.0",
+  "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "build": "netlify-lambda build functions"
+    "start": "node functions/app.js",
+    "build": "netlify-lambda build functions functions-build",
+    "serve": "netlify-lambda serve functions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrasE/netlify_ejs_express_test.git"
   },
   "author": "",
   "license": "ISC",
-  "description": "",
+  "bugs": {
+    "url": "https://github.com/AndrasE/netlify_ejs_express_test/issues"
+  },
+  "homepage": "https://github.com/AndrasE/netlify_ejs_express_test#readme",
   "dependencies": {
     "@netlify/functions": "^2.8.2",
     "ejs": "^3.1.10",
     "express": "^4.21.1",
-    "netlify-cli": "^17.37.1",
     "netlify-lambda": "^2.0.16",
     "serverless-http": "^3.2.0"
   }
