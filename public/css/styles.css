@@ -1,16 +1,21 @@
 body {
-  margin: 0;
   padding: 0;
+  margin: 0;
   font-family: "Roboto", sans-serif;
+  background-color: rgba(127, 255, 212, 0.281);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 h1 {
-  font-size: 2.7rem;
-  margin: 0;
+  font-size: 2.2rem;
 }
 
 h2 {
-  font-size: 2rem;
+  text-align: center;
+  font-size: 1.8rem;
 }
 
 span {
@@ -25,11 +30,11 @@ img {
   border: 4px solid rgb(127, 255, 212);
 }
 
-.example {
-  width: 100%;
-  height: 100vh;
+.container {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 10px;
   display: flex;
-  background-color: rgba(127, 255, 212, 0.281);
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -37,7 +42,6 @@ img {
 
 .list {
   margin-top: 10px;
-  width: 60%;
   max-width: 600px;
   display: flex;
   flex-direction: column;
