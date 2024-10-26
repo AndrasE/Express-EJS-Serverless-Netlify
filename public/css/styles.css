@@ -26,8 +26,27 @@ span {
 img {
   width: 150px;
   height: 150px;
+  margin-bottom: 15px;
   border-radius: 20%;
   border: 4px solid rgb(127, 255, 212);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-left: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .container {
@@ -53,4 +72,13 @@ img {
 
 .li-header {
   font-weight: bold;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0 0 0;
 }
