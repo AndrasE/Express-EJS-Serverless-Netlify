@@ -4,9 +4,9 @@
   publish = "public"
 
 [functions]
-  external_node_modules = ["express"]
+  external_node_modules = ["express", "ejs"]
   node_bundler = "esbuild"
-
+  included_files = ["views/**"]
 
 [[redirects]]
   force = true
