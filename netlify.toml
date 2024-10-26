@@ -4,7 +4,7 @@
   publish = "public"
 
 [functions]
-  external_node_modules = ["express", "ejs"]
+  external_node_modules = ["express", "ejs", "serve-favicon"]
   node_bundler = "esbuild"
   included_files = ["views/**", "public/**"]
 
