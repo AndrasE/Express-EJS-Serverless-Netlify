@@ -1,7 +1,10 @@
 <h3 align="center">
   <a href="https://express-ejs-serverless.netlify.app/" target="_blank" rel="noopener noreferrer">
-Netlify EJS Express Serverless Test  </a>
-</h3> 
+  <img src="https://github.com/AndrasE/raw-readme/blob/19807d2abb90eb6d5d1cc17f619d2397062d2574/logo/express-ejs-ejs-netlify.png" width="100px">
+  </a>
+  <br/>
+Netlify EJS Express Serverless Test
+</h3>
 
 ## Hello there 👋
 
@@ -21,14 +24,15 @@ This test is a simple web app built using Express, EJS, and deployed serverless 
 
   - Specifies build command, functions directory, and included files. It defines redirect rules for images, CSS, and all other requests to the serverless function.
 
+### View Templates
+
+- **index.ejs**:
+
+  - An EJS template that renders an HTML page with a title, CSS styles, and an image.
+
 ### Package Configuration
 
 - **package.json**:
 
   - Lists project dependencies and provides metadata about the project.
 
-### View Templates
-
-- **index.ejs**:
-
-  - An EJS template that renders an HTML page with a title, CSS styles, and an image.
