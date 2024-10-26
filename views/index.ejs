@@ -4,15 +4,42 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Netlify EJS Express Test</title>
+  <title>Netlify/Express/Serverless</title>
   <link rel="stylesheet" type="text/css" href="css/styles.css" />
 </head>
 
 <body>
   <div class="example">
-    <h1>HELLOWORLD</h1>
-    <h2>Netlify EJS Express Test</h2>
+    <h1>HELLO WORLD!</h1>
+    <h2>Netlify/Express/EJS/Serverless</h2>
     <img src="images/gifkitty.gif" alt="kitty" />
+    <div class="list">
+      <ul>
+        <li><span>Server Configuration:</span>
+          <ul>
+            <li>server.js uses serverless-http to wrap the Express app for serverless deployment.</li>
+            <li>app.js sets up the Express app, configures EJS as the view engine, serves static files, and defines a
+              route for rendering the index.ejs template.</li>
+          </ul>
+        </li>
+        <li><span>Netlify Configuration:</span>
+          <ul>
+            <li>netlify.toml specifies build command, functions directory, and included files. It defines redirect rules
+              for images, CSS, and all other requests to the serverless function.</li>
+          </ul>
+        </li>
+        <li><span>Package Configuration:</span>
+          <ul>
+            <li>package.json lists project dependencies and provides metadata about the project.</li>
+          </ul>
+        </li>
+        <li><span>View Templates:</span>
+          <ul>
+            <li>index.ejs is an EJS template that renders an HTML page with a title, CSS styles, and an image.</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
   </div>
 </body>
 
