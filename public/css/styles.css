@@ -1,12 +1,11 @@
 body {
-  padding: 0;
   margin: 0;
+  padding: 0;
   font-family: "Roboto", sans-serif;
   background-color: rgba(127, 255, 212, 0.281);
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 h1 {
@@ -40,6 +39,10 @@ li {
   margin-left: 15px;
 }
 
+p {
+  margin: 0;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -50,13 +53,19 @@ a:hover {
 }
 
 .container {
-  margin-top: auto;
-  margin-bottom: auto;
-  padding: 10px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content {
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 10px;
 }
 
 .list {
@@ -75,10 +84,10 @@ a:hover {
 }
 
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  padding: 10px 0 0 0;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(127, 255, 212);
+  border-radius: 10px 10px 0 0;
+  padding: 0 5px;
 }

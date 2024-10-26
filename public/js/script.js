@@ -1,4 +1,5 @@
 const jsTest = document.querySelector("img");
+const jsTest2 = document.querySelector(".footer");
 
 // Function to generate a random RGB color
 function getRandomColor() {
@@ -13,4 +14,5 @@ jsTest.addEventListener("click", () => {
   const randomColor = getRandomColor();
   // Set the border color to the random color
   jsTest.style.borderColor = randomColor;
+  jsTest2.style.backgroundColor = randomColor;
 });
