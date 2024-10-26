@@ -3,7 +3,7 @@
   <img src="https://github.com/AndrasE/raw-readme/blob/6df855ad94082500b16b025c084a84a872ef89fc/logo/express-ejs-ejs-netlify.png" width="100px">
   </a>
   <br/>
-Netlify EJS Express Serverless Test
+Express / EJS / Serverless / Netlify
 </h3>
 
 ## Hello there 👋
